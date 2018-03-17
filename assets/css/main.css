@@ -3,6 +3,7 @@ html {
 }
 body {
     min-height: 100vh;
+    overflow: hidden;
 }
 
 body
@@ -21,6 +22,6 @@ body
 	min-height: 100vh;	
 }
 
-p{
+pre{
  font-size: 20px !important;
 }
