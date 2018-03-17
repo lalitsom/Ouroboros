@@ -1,32 +1,26 @@
-.comic_div
-{
-    width: auto;
+html {
+    height: 100vh;
+}
+body {
+    min-height: 100vh;
 }
 
-.brand-logo
-{
-    margin-left: 10px;
-}
-.comic_image
-{
-    display: inline;
-}
-.load-center
-{
-    margin-left: 50%;
-}
 body
 {
+	margin: 0;
+	padding: 0;
+	top: 0;
+	bottom: 0;
     font-size: 25px;
+    color: white;
+    background-image: url('../images/bg.jpg');    
 }
 
-.jump-field
-{
-    max-width: 50%;
+
+.carousel-item, .carousel, .carousel-slider{
+	min-height: 100vh;	
 }
 
-.margin47
-{
-    z-index: 5;
-    margin: 0;  margin-left: 40%;  padding: 2px;
+p{
+ font-size: 20px !important;
 }
